@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Eduardo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: radial-gradient(circle, #1a1a2e 0%, #0f0f1a 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .profile-pic {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #4ecca3;
+            box-shadow: 0 0 25px rgba(78, 204, 163, 0.5);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 { 
+            font-size: 1.6rem; 
+            margin-bottom: 5px; 
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #888;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 18px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .link-card:active { transform: scale(0.96); }
+
+        /* Estilos por red social */
+        .discord { border-left: 6px solid #7289da; }
+        .discord:hover { background: rgba(114, 137, 218, 0.2); }
+
+        .roblox { border-left: 6px solid #ffffff; }
+        .roblox:hover { background: rgba(255, 255, 255, 0.1); }
+
+        .instagram { border-left: 6px solid #e1306c; }
+        .instagram:hover { background: rgba(225, 48, 108, 0.2); }
+
+        .footer-text {
+            margin-top: 40px;
+            font-size: 0.7rem;
+            opacity: 0.5;
+            letter-spacing: 2px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Eduardo" class="profile-pic">
+        <h1>EDUARDO</h1>
+        <p>@eduardo231416</p>
+
+        <a href="https://discord.gg/ABx4jsgj" target="_blank" class="link-card discord">
+            DISCORD: eduardo231416
+        </a>
+
+        <a href="https://www.roblox.com/users/search?keyword=GOY67107" target="_blank" class="link-card roblox">
+            ROBLOX: GOY67107
+        </a>
+
+        <a href="https://www.instagram.com/eduardo231416" target="_blank" class="link-card instagram">
+            INSTAGRAM
+        </a>
+
+        <div class="footer-text">PROCESANDO DATOS...</div>
+    </div>
+
+</body>
+</html>
